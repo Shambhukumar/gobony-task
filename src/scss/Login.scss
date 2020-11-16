@@ -1,0 +1,42 @@
+.login{
+  display: flex;
+  flex-direction: column;
+  width: 32%;
+  color: rgb(247, 244, 244);
+  box-shadow: 2px 2px 15px 10px rgba(66, 66, 66, 0.568);
+  background-image: linear-gradient(to right bottom, #2a1430, #243B55);
+  padding: 30px;
+ .error{
+  color: red;
+ }
+  button{
+    font-size: 1rem;
+    background-color: #367ab94d;
+    border: none;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    color: inherit;
+  }
+  input{
+    padding: 10px;
+    color: inherit;
+    background-color: #d2d7db49;
+    border: none;
+  }
+  label{
+    padding: 10px;
+    font-size: 1.2rem;
+  }
+  p{
+    font-size: 1rem;
+   
+  }
+
+  span{
+    color: yellow;
+    cursor: pointer;
+  }
+}
+
